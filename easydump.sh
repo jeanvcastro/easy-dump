@@ -8,7 +8,7 @@ logs
 postbacks
 examplo
 )
-ARQUIVO=dump.sql
+ARQUIVO=dump_$(date +"%Y%m%d%H%M%S").sql
 
 TABELAS_IGNORADAS_STRING=''
 for TABELA in "${TABELAS_IGNORADAS[@]}"
