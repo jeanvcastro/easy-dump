@@ -6,7 +6,7 @@ PASSWORD=
 TABELAS_IGNORADAS=(
 logs
 postbacks
-examplo
+example
 )
 ARQUIVO=dump_$(date +"%Y%m%d%H%M%S").sql
 
